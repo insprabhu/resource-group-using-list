@@ -1,6 +1,6 @@
 resource "random_string" "rg_name" {
     length = 9
-    upper = false
+    upper = true
     numeric = false
     special = true
 }
